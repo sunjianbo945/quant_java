@@ -1,0 +1,23 @@
+
+#server:
+#  port: 8880
+
+
+inputfile: 'F:\cryptocurrency\%s\%s\processed\'
+
+
+#jdbc:postgresql://host:port/database
+spring:
+  postgre:
+    datasource:
+      jdbc-url: jdbc:postgresql://localhost:6666/db_foundation_cryptocurrency
+      username: postgres
+      password: admin
+      driverClassName: org.postgresql.Driver
+
+args:
+  start-date:
+  end-date:
+  date:
+  mode:
+  hours:

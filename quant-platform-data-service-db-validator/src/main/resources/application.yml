@@ -1,0 +1,13 @@
+postgre:
+  datasource:
+    serverName: localhost
+    databaseName: db_foundation_cryptocurrency
+    portNumber: 6666
+    username: postgres
+    password: admin
+
+gmail:
+  username: quantbeijing
+  password: beijing2018!
+  to: shaoshuai890318@gmail.com,js7995@nyu.edu
+  subject: Crypto-currency Hourly Data Loading Validation Email

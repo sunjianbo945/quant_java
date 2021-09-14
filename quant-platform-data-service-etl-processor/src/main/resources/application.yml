@@ -1,0 +1,31 @@
+
+server:
+  port: 8888
+
+
+#jdbc:postgresql://host:port/database
+spring:
+  postgre:
+    datasource:
+      jdbc-url: jdbc:postgresql://localhost:6666/db_foundation_cryptocurrency
+      username: postgres
+      password: admin
+      driverClassName: org.postgresql.Driver
+
+
+#legal file path -> F:\cryptocurrency\exchangeName\date\processed\exchangeName_ticker_pricingCurrency_date.csv
+file-path:
+  coinbase:
+    output-file: 'F:\cryptocurrency\coinbase\%s\processed\'
+    input-file: 'F:\cryptocurrency\coinbase\%s\raw\'
+  binance:
+      output-file: 'F:\cryptocurrency\binance\%s\processed\'
+      input-file: 'F:\cryptocurrency\binance\%s\raw\'
+
+
+args:
+  start-date:
+  end-date:
+  date:
+  mode:
+  hours:

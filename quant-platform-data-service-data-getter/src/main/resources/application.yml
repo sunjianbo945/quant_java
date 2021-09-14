@@ -1,0 +1,33 @@
+
+server:
+  port: 6868
+
+output-file:
+  path:
+    coinbase: 'F:\cryptocurrency\coinbase\%s\raw\'
+    binance: 'F:\cryptocurrency\binance\%s\raw\'
+
+url:
+  coinbase: 'https://api.gdax.com/products/%s-%s/candles?start=%s&end=%s'
+  #https://www.binance.com/api/v1/klines?symbol=BTCUSDT&interval=1m&startTime=1523577600000&endTime=1523664000000
+  binance: 'https://www.binance.com/api/v1/klines?symbol=%s%s&interval=1m&startTime=%s&endTime=%s'
+
+spring:
+    datasource:
+      #jdbc:postgresql://host:port/database
+      jdbc-url: jdbc:postgresql://localhost:6666/db_foundation_cryptocurrency
+      username: postgres
+      password: admin
+      driverClassName: org.postgresql.Driver
+
+
+exchange-name:
+  coinbase: coinbase
+
+
+args:
+  start-date:
+  end-date:
+  date:
+  mode:
+  hours:

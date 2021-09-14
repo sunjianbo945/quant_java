@@ -1,0 +1,11 @@
+time_stamp,exchange_id,currency_id,pricing_currency_id,open,close,high,low,trade_volume,back_filled
+2018-04-03T00:00:00Z,1,1001,1,null,null,null,null,null,1
+2018-04-03T00:01:00Z,1,1001,1,null,null,null,null,null,1
+2018-04-03T00:02:00Z,1,1001,1,null,null,null,null,null,1
+2018-04-03T00:03:00Z,1,1001,1,null,null,null,null,null,1
+2018-04-03T00:04:00Z,1,1001,1,null,null,null,null,null,1
+2018-04-03T00:05:00Z,1,1001,1,null,7080.1,7090.7,7080.1,48.11989582,0
+2018-04-03T00:06:00Z,1,1001,1,7080.1,7075.39,7080.11,7075.38,19.21636283,0
+2018-04-03T00:07:00Z,1,1001,1,null,null,null,null,null,1
+2018-04-03T00:08:00Z,1,1001,1,7068.66,7065.07,7068.66,7064.29,11.75800169,0
+2018-04-03T00:09:00Z,1,1001,1,7065.06,null,7065.07,7065.06,1.3143459,0

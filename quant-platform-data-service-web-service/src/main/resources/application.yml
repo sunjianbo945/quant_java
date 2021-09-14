@@ -1,0 +1,12 @@
+
+
+server:
+  port: 9999
+
+postgre:
+  datasource:
+    serverName: localhost
+    databaseName: db_foundation_cryptocurrency
+    portNumber: 6666
+    username: postgres
+    password: admin
